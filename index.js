@@ -14,6 +14,8 @@ app.config(function ($stateProvider, $urlRouterProvider){
             controller : 'class1Ctrl'
         })
 
+
+
         .state('class2',{
             url : '/class2',
             templateUrl : 'tutorial/view/class_2.html',
@@ -25,7 +27,7 @@ app.config(function ($stateProvider, $urlRouterProvider){
             controller : 'class3Ctrl'
         })
         .state('class4',{
-            url : '/class4',
+            url : '/class4/{id}',
             templateUrl : 'tutorial/view/class_4.html',
             controller : 'class4Ctrl'
         })
